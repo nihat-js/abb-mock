@@ -1,0 +1,31 @@
+*{
+  margin : 0;
+  padding : 0;
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 1160px;
+  margin : 0 auto;
+}
+
+.services .title {
+  text-align: center;
+  margin:  2rem 0 ;
+  font-weight: lighter;
+  font-size: 32px;
+}
+
+.services .tabs {
+  display: grid;
+  grid-template-columns: repeat(6  ,1fr);
+}
+.services .tabs p {
+  color : #191919;
+  background-color: #f9fdfe;
+  padding : 1.5rem 1rem ;
+  width: 100%/6;
+  text-align: center;
+}
+
+.services .tabs .active { background-color :#19cfaa ; color : #fff; }
