@@ -24,7 +24,6 @@
   color : #191919;
   background-color: #f9fdfe;
   padding : 1.5rem 1rem ;
-  width: 100%/6;
   text-align: center;
   cursor: pointer;
   border-radius: 5px ;
@@ -38,15 +37,19 @@
 
 
 .services .box  {
+  padding: 2rem 1rem ;
   display: flex;
   width: 100%;
   gap:  3rem;
+  
 }
 
 .services .box .img-wrap {
   width: 20%;
 }
-
-.services .box .img {
+.services .box p {
+  width: 80%;
+}
+.services .box img {
   width: 100%;
 }
