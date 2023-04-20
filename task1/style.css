@@ -26,6 +26,27 @@
   padding : 1.5rem 1rem ;
   width: 100%/6;
   text-align: center;
+  cursor: pointer;
+  border-radius: 5px ;
+}
+
+.services .tabs p:hover {
+  background-color: #ae00ff;
 }
 
 .services .tabs .active { background-color :#19cfaa ; color : #fff; }
+
+
+.services .box  {
+  display: flex;
+  width: 100%;
+  gap:  3rem;
+}
+
+.services .box .img-wrap {
+  width: 20%;
+}
+
+.services .box .img {
+  width: 100%;
+}
